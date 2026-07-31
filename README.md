@@ -4,7 +4,7 @@
 
 # Zwaailicht P2000 — Home Assistant Integration
 
-A HACS-compatible Home Assistant custom integration that surfaces live P2000 emergency alerts from [zwaailicht.nu](https://zwaailicht.nu) as sensor entities. Set a radius around your home and get notified about nearby incidents on your dashboards, NSPanel displays, and in automations.
+A HACS-compatible Home Assistant custom integration that surfaces live P2000 emergency alerts from [zwaailicht.nl](https://zwaailicht.nl) as sensor entities. Set a radius around your home and get notified about nearby incidents on your dashboards, NSPanel displays, and in automations.
 
 ## Installation
 
@@ -69,10 +69,10 @@ Fires when a new P2000 melding appears within your radius.
 
 | Field | Type | Example | Always present |
 |---|---|---|---|
-| `id` | string | `https://zwaailicht.nu/amsterdam/medisch/2026-04-06/4712c0` | yes |
+| `id` | string | `https://zwaailicht.nl/amsterdam/medisch/2026-04-06/4712c0` | yes |
 | `title` | string | `🚑 A1 Spoed — Brouwersgracht, Amsterdam` | yes |
 | `timestamp` | string | `2026-04-06T13:01:29Z` | yes |
-| `link` | string | `https://zwaailicht.nu/amsterdam/medisch/...` | yes |
+| `link` | string | `https://zwaailicht.nl/amsterdam/medisch/...` | yes |
 | `dienst` | string | `ambulance`, `brandweer`, `politie`, `knrm` | yes |
 | `stad` | string | `amsterdam` | yes |
 | `latitude` | float | `52.3781` | yes |
